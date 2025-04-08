@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Hero from './components/Hero'
-import Features from './components/Features'
 import Footer from './components/Footer'
 import ThemeToggle from './components/ThemeToggle'
 import Signup from './pages/Signup'
@@ -9,7 +8,6 @@ function Home() {
   return (
     <>
       <Hero />
-      <Features />
       <Footer />
     </>
   )
